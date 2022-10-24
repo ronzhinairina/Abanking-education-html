@@ -1,0 +1,59 @@
+.works {
+    &__subtitle {
+        margin: 15px 0 22px 0;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 60px;
+    }
+
+    &__img {
+        width: 246px;
+        height: 180px;
+        border-radius: 6px;
+    }
+
+    &__container {
+        display: grid;
+        grid-gap: 18px;
+        grid-template-columns: 246px 1fr;
+        margin-bottom: 31px;
+        padding-bottom: 31px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    &__year {
+        font-weight: 900;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+
+        width: 62px;
+        background-color: #142850;
+        border-radius: 16px;
+    }
+
+    &__img-alt {
+        font-weight: 400;
+        font-size: 20px;
+        color: #8695A4;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 561px;
+    }
+
+    &__container1 {
+        display: flex;
+        gap: 26px;
+        margin: 22px 0;
+    }
+}

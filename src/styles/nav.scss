@@ -1,0 +1,14 @@
+.nav {
+    &__link {
+        color: #000000;
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 500;
+    }
+        
+    &__list {
+        display: flex;
+        gap: 33px;
+        justify-content: flex-end;
+    }
+}

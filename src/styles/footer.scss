@@ -1,0 +1,25 @@
+.footer {
+    &__container {
+        display: flex;
+        // gap: 35px;
+        // justify-content: center;
+        flex-direction: column;
+        padding: 51px 0px 54px 0px;
+        gap: 26px;
+
+        // position: absolute;
+        // left: 50%;
+        // bottom: 26px;
+        // transform: translate(-50%, 0);
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    &__copy {
+        text-align: center;
+    }
+}
