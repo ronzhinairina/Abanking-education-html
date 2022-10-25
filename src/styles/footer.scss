@@ -1,16 +1,9 @@
 .footer {
     &__container {
         display: flex;
-        // gap: 35px;
-        // justify-content: center;
+        gap: 26px;
         flex-direction: column;
         padding: 51px 0px 54px 0px;
-        gap: 26px;
-
-        // position: absolute;
-        // left: 50%;
-        // bottom: 26px;
-        // transform: translate(-50%, 0);
     }
 
     &__list {
@@ -21,5 +14,7 @@
 
     &__copy {
         text-align: center;
+        font-weight: 400;
+        font-size: 14px;
     }
 }

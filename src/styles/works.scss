@@ -6,12 +6,6 @@
         line-height: 60px;
     }
 
-    &__img {
-        width: 246px;
-        height: 180px;
-        border-radius: 6px;
-    }
-
     &__container {
         display: grid;
         grid-gap: 18px;
@@ -21,10 +15,23 @@
         border-bottom: 1px solid #E0E0E0;
     }
 
-    &__title {
+    &__img {
+        width: 246px;
+        height: 180px;
+        border-radius: 6px;
+    }
+
+    &__link {
         font-weight: 700;
         font-size: 30px;
         line-height: 44px;
+        color: #21243D;
+    }
+
+    &__container-aside {
+        display: flex;
+        gap: 26px;
+        margin: 22px 0;
     }
 
     &__year {
@@ -32,7 +39,6 @@
         font-size: 18px;
         text-align: center;
         color: #FFFFFF;
-
         width: 62px;
         background-color: #142850;
         border-radius: 16px;
@@ -49,11 +55,5 @@
         font-size: 16px;
         line-height: 24px;
         max-width: 561px;
-    }
-
-    &__container1 {
-        display: flex;
-        gap: 26px;
-        margin: 22px 0;
     }
 }
